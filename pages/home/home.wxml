@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view class="box">
+    <swiper class="banner" indicator-dots="{{true}}" autoplay="{{true}}" interval="3000" circular="{{true}}">
+      <block wx:for="{{imgUrls}}" wx:key="{{ index }}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <movie prolist="{{  prolist }}"></movie>
+  </view>
+</view>
+<view wx:if="{{flag}}" class="tip">双击顶部中间返回顶部<text bindtap="closeTip">×</text></view>

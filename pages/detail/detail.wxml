@@ -1,0 +1,3 @@
+<!--pages/detail/detail.wxml-->
+<text>pages/detail/detail.wxml</text>
+<image src='{{img}}' bindtap="previewImg" />

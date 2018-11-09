@@ -1,0 +1,13 @@
+<!--components/movie/movie.wxml-->
+<view class="prolist">
+  <view class="item" wx:for="{{prolist}}" wx:key="{{item.id}}" bindtap='toDetail' data-id="{{item.id}}">
+    <view class="itemImg">
+      <image src="{{item.images.small}}" alt=""/>
+    </view>
+    <view class="itemPro">
+      <view class="itemTitle">标题： {{ item.title }}---{{index}}</view>
+      <view class="itemRating">评分{{ item.rating.average}} / {{ item.collect_count }}</view>
+    </view>
+  </view>
+</view>
+

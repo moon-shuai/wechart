@@ -1,0 +1,8 @@
+
+{
+  "usingComponents": {
+    "movie": "/components/movie/movie"
+  },
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#333"
+}

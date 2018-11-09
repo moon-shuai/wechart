@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/kind/kind",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#f66",
+    "navigationBarTitleText": "Moon",
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#f66",
+    "backgroundColor": "#eee",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "resources/home.png",
+        "selectedIconPath": "resources/home1.png"
+      },
+      {
+        "pagePath": "pages/kind/kind",
+        "text": "分类",
+        "iconPath": "resources/kind.png",
+        "selectedIconPath": "resources/kind1.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "resources/cart.png",
+        "selectedIconPath": "resources/cart1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "resources/user.png",
+        "selectedIconPath": "resources/user1.png"
+      }
+    ]
+  },
+  "functionalPages": true
+}
