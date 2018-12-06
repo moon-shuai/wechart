@@ -9,7 +9,8 @@ Page({
     telflag:0,
     pwdvalue: '',
     pwdflag: 0,
-    tip:''
+    tip:'',
+    logon:""
   },
   getTel(e) {
     // console.log(e.detail)
