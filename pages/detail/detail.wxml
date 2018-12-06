@@ -1,3 +1,12 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
-<image src='{{img}}' bindtap="previewImg" />
+<view class='detail'>
+  <view class='detailImg'>
+    <image src='{{img}}' bindtap="previewImg" />
+  </view>
+  <view class='detailPro'>
+    <view class='detailTitle'>标题：{{ title }}</view>
+    <view class='detailrating'>评分：{{ rating}}</view>
+    <view></view>
+  </view>
+</view>
+

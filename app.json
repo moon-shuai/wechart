@@ -6,7 +6,10 @@
     "pages/user/user",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/map/map",
+    "pages/login/login",
+    "pages/register/register"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -35,9 +38,9 @@
       },
       {
         "pagePath": "pages/cart/cart",
-        "text": "购物车",
-        "iconPath": "resources/cart.png",
-        "selectedIconPath": "resources/cart1.png"
+        "text": "地图",
+        "iconPath": "resources/map.png",
+        "selectedIconPath": "resources/map1.png"
       },
       {
         "pagePath": "pages/user/user",

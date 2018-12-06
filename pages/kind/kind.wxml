@@ -1,2 +1,10 @@
 <!--pages/kind/kind.wxml-->
-<text>pages/kind/kind.wxml</text>
+<view>
+  <button bindtop='getImg'>
+    获取本地图片
+    <camera/>
+  </button>
+  <button bindtap='toPhone'>拨打电话</button>
+  <button bindtap='toCode'>扫码</button>
+</view>
+

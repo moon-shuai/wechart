@@ -14,7 +14,15 @@ Page({
   onLoad: function (options) {
 
   },
-
+  login () {
+    console.log('1111')
+    wx.navigateTo({
+      url: '/pages/login/login',
+    })
+  },
+  register () {
+    console.log('2222')
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

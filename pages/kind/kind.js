@@ -14,7 +14,24 @@ Page({
   onLoad: function (options) {
 
   },
-
+  getImg() {
+    console.log('111')
+  },
+  toPhone (e) {
+    console.log(e)
+    wx.makePhoneCall({
+      phoneNumber: '17839217480' //仅为示例，并非真实的电话号码
+    })
+  },
+  toCode() {
+    console.log("扫码")
+    wx.scanCode({
+      onlyFromCamera: true,
+      success(res) {
+        console.log(res)
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

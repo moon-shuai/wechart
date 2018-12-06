@@ -1,41 +1,20 @@
-// pages/detail/detail.js
+// pages/register/register.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title:"",
-    img: '',
-  rating: ''
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // console.log(options.id)
-    const id = options.id
-    wx.request({
-      url: 'https://www.daxunxun.com/detail?id=' + id,
-      success: (res) => {
-        console.log(res.data)
-        this.setData({
-          img: res.data[0].images.small,
-          title:res.data[0].title,
-          rating: res.data[0].rating.average
-        })
-      }
-    })
+
   },
-  previewImg() {
-    wx.previewImage({
-      // current: current,
-      urls: [
-        this.data.img
-      ]
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

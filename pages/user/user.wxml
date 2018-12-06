@@ -1,2 +1,13 @@
 <!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<view class='container'>
+  <view class='box'>
+    <view>
+      <button class='login' bindtap='login'>登录</button>
+      <button class='register' bindtap='register'>注册</button>
+    </view>
+  </view>
+
+
+
+</view>
+
